@@ -1,0 +1,112 @@
+/* Desktop layout :992px.  */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.column {
+		width: 970px;
+	}
+	.single-text h1 {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.single-text a {
+		padding: 10px 40px; 
+	}
+}
+
+
+/* Tablet layout :768px */
+@media (min-width: 768px) and (max-width: 991px) {
+	.column {
+		width: 750px;
+	}
+	.single-text h1 {
+		font-size: 40px;
+		line-height: 45px;
+		margin-bottom: 5px;
+	}
+	.single-text p {
+		margin-bottom: 25px;
+	}
+	.single-text a {
+		padding: 5px 40px;
+	}
+	.col-4 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.testimonial-carousel-active .owl-nav div {
+		left: -20px;
+	}
+	.owl-carousel .owl-nav div.owl-next {
+		left: auto;
+		right: -20px;
+	}
+}
+
+/* Small mobile  layout :320px */
+@media (max-width: 767px) {
+	.column {
+		width: 300px;
+	}
+	.logo {
+		float: none;
+		text-align: center;
+	}
+	.slider-area {
+		clear: both;
+	}
+	.menu ul li a {
+		padding: 8px 10px;
+	}
+	.menu {
+		float: none;
+		text-align: center;
+	}
+	.owl-carousel .owl-nav div {
+		display: none;
+	}
+	.single-img img {
+		height: auto;
+	}
+	.single-text p {
+		display: none;
+	}
+	.single-text h1 {
+		font-size: 25px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+	.single-text a {
+		font-size: 19px;
+		padding: 3px 25px;
+	}
+	.col-4 {
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+	}
+	.col-3 {
+		width: 100%;
+		float: none;
+	}
+	.xs-mb-30 {
+		margin-bottom: 30px;
+	}
+	.col-2 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.input-field {
+		padding: 0;
+		width: 100%;
+	}
+	.message-box {
+		padding: 0;
+	}
+}
+
+/* Large Mobile layout:480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.column {
+		width: 450px;
+	}
+}
